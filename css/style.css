@@ -10,14 +10,12 @@ body {
 
 
 .principal {
-  /* font-family: Arial, Helvetica, sans-serif; */
   background: white;
-  margin:0 20% 0 20%;
+  margin: 0 20% 0 20%;
   height: auto;
   display: grid;
   margin-top: 10px;
   grid-template-columns: 1fr 2fr;
-  min-width: 700px;
 }
 
 .lado-esq {
@@ -46,7 +44,7 @@ body {
 
 .material-icons.icon-branco {
   color: white;
-  
+
 }
 
 .bloco-informacao {
@@ -81,9 +79,9 @@ body {
 
 .perfil {
   padding: 0 15px;
-  margin: 20px 50px;
+  margin: 20px 30px;
   text-align: justify;
-  font-family: serif;
+  font-family: Roboto, serif;
 }
 
 .image {
@@ -99,6 +97,7 @@ h3 {
 .im2 {
   border-radius: 50%;
 }
-a{
-  text-decoration:none ;
+
+a {
+  text-decoration: none;
 }

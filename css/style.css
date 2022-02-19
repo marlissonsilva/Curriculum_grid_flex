@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap');
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -16,16 +18,22 @@ body {
   display: grid;
   margin-top: 10px;
   grid-template-columns: 1fr 2fr;
+  border-radius: 10px;
+  box-shadow: 0px 10px 10px 10px rgb(20, 20, 20);
+  
 }
 
 .lado-esq {
   background: #076591;
+  border-radius: 10px 0 0 10px;
 }
 
 .lado-dir {
   text-align: justify;
+  border-radius: 10px 0 0 10px;
 }
 
+/* lado esquerdo */
 .foto {
   border-radius: 50%;
   margin: 30px 50px auto;
@@ -61,27 +69,34 @@ body {
 }
 
 .descricao {
-  font-size: 16px;
+  font-size: 15px;
   color: white;
   font-weight: 600;
-  font-family: cursive;
+  font-family: 'Open Sans';
   margin-left: 18px;
   margin-right: 5px;
 }
 
+/* lado direito */
 #nome {
   font-size: 3rem;
-  margin: 50px 50px 10px;
+  margin: 50px 30px 10px;
   padding: 0 15px;
   font-family: serif;
 
+}
+#nome-h{
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+  display: none;
 }
 
 .perfil {
   padding: 0 15px;
   margin: 20px 30px;
   text-align: justify;
-  font-family: Roboto, serif;
+  font-family:Roboto;
 }
 
 .image {
@@ -91,7 +106,7 @@ body {
 
 h3 {
   padding: 10px 0;
-  font-size: 25px;
+  font-size: 2rem;
 }
 
 .im2 {
@@ -101,3 +116,5 @@ h3 {
 a {
   text-decoration: none;
 }
+
+

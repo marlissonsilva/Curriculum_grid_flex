@@ -40,6 +40,11 @@ body {
   /* padding: 5px; */
   border: 5px solid rgb(242, 239, 245);
 }
+.my-perfil{
+  line-height: 30px;
+  max-width: 270px;
+  text-align: left;
+}
 
 .titulo {
   color: white;
@@ -65,7 +70,7 @@ body {
 }
 
 .bloco-informacao, .material-icons.icon-branco {
-  line-height: 50px;
+  line-height: 30px;
 }
 
 .descricao {
@@ -73,7 +78,7 @@ body {
   color: white;
   font-weight: 600;
   font-family: 'Open Sans';
-  margin-left: 18px;
+  margin-left: 5px;
   margin-right: 5px;
 }
 
@@ -94,7 +99,7 @@ body {
 
 .perfil {
   padding: 0 15px;
-  margin: 20px 30px;
+  margin: 20px 20px;
   text-align: justify;
   font-family:Roboto;
 }
